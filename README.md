@@ -4,12 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the backend project directory, you can run the first command:
+
+### `node index.js`
+
+In the src project directoy, where is the frontend code you can run using the:
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Frontend running on [http://localhost:3001](http://localhost:3001).
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.

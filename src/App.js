@@ -1,12 +1,12 @@
 import './App.css';
-import Characters from './components/Characters';
+import CharactersGrid from './components/CharactersGrid';
 import Header from './components/Header';
 
 function App() {
   return (
     <div className='container'>
       <Header />
-      <Characters/>
+      <CharactersGrid/>
     </div>
   );
 }
