@@ -9,7 +9,7 @@ export default function CharactersGrid() {
     const [selectedCharacter, setSelectedCharacter] = useState(null);
 
     useEffect(() => {
-        fetch('http://localhost:3000/characters')
+        fetch('/api/characters')
             .then(response => response.json())
             .then(data => {
                 console.log(data); 
